@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .asterick{
+            color: red;
+        }
+    
+        body{
+            background-color: rgb(241, 197, 197);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Consulting Pvt.Ltd.
+    </h1>
+    <hr>
+    <h3>Contact us</h3>
+    <div class="number">
+        <p>
+            Phone: <a href="7652017475">7652017475</a>
+        </p>
+        <div class="email">
+            <p>
+                Email: <a href="brahaspatimani18@gmail.com">brahaspatimani18@gmail.com</a>
+            </p>
+        </div>
+    </div>
+    <div>
+        <form action="/index.html" method="get" >
+        <h2>Drop a message</h2>
+        <p>Please drop a message by filing out this form,and we will get back to you within two working days.</p>
+        <p>Fields marked with <span class="asterick">*</span> are required</p>
+        <label for="" id="name" ></label>
+        <div>
+          Your Name <span class="asterick">*</span> : <input type="text" placeholder="John Doe" name="Myname" id="" required>
+        </div>
+        <label for="" id="email"></label>
+        <div>
+           Your Email <span class="asterick">*</span> : <input type="email" placeholder="brahaspatimani18@gmail.com" name="myemail " id="" required>
+        </div>
+        <label for=""></label>
+        <div>
+            What are you looking to build?<span class="asterick">*</span> : <br>  <select name=""   id="choose" required>
+                <option value="default">--Choose one--</option>
+                <option value="blog">Blog</option>
+                <option value="online store">Online store</option>
+                <option value="game">Game</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+        
+        Plans you plan to support <span class="asterick">*</span> : <br>
+      <input type="checkbox" name="Web" > Web 
+        <input type="checkbox" name="Mobile" > Mobile
+        <input type="checkbox" name="Dekstop" >  Desktop
+    </div>
+    <div>
+   Message: <textarea name="" id="" cols="30" rows="10" placeholder="Enter the text"></textarea>
+</div>
+<div>
+<input type="reset" value="Reset" class="reset"></div>
+
+    </div>
+    <input type="submit" value="Send message" class="send">
+</form>
+</body>
+</html>
