@@ -1,0 +1,41 @@
+:root{
+    --panel-color: azure;
+   --panel-padding: 1em;
+}
+.panel-body{
+    background-color: var(--panel-color);
+}
+.panel-heading,.panel-body{
+    padding: var(--panel-padding);
+}
+
+
+
+.panel {
+    border: 1px solid rgb(151, 52, 52);
+    border-radius: 4px;
+}
+.panel-title {
+    margin: 0;
+}
+
+
+
+.panel-heading {
+    background-color: olive;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-first .panel-heading {
+    background-color: rgb(153, 153, 221);
+    color: black ;
+}
+
+.panel-second .panel-heading {
+    background-color: olive;
+    
+}
+.panel-third .panel-heading{
+    background-color: red;
+    
+}
